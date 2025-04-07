@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+    justify-content: center;
+
+}
+.box{
+    height: 90px;
+    width: 90px;
+    background-color: aqua;
+    font-size: 48px;
+    
+}
